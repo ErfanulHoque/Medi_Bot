@@ -1,0 +1,49 @@
+{"intents": [
+    {
+     "tag": "greetings",
+     "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going?"],
+     "responses": ["Hello!", "Hey!", "What can I do for you?"]   
+    },
+    {
+     "tag": "name",
+     "patterns": ["what is you name", "what should I call you", "whats your name", "who are you?", "can you tell me your name", "what's up", "how is it going?"],
+     "responses": ["You can call me Medi-Bot!", "I am Medi-Bot the medical assistant!"]
+    },
+    {
+     "tag": "hours",
+     "patterns": ["when are guys open?", "what are your hours?", "hours of operation?"],
+     "responses": ["24/7", "Everyday!"]
+    },
+    {
+     "tag": "diabetes_definition",
+     "patterns": ["what is diabetes?", "define diabetes?"],
+     "responses": ["Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high.", "Diabetes mellitus, commonly known as diabetes, is a metabolic disease that causes high blood sugar.", "Diabetes is a condition that impairs the body’s ability to process blood glucose, otherwise known as blood sugar."]   
+    },
+    {
+     "tag": "diabetes_types",
+     "patterns": ["types of diabetes?", "how many types diabetes?"],
+     "responses": ["The most common types of diabetes are type 1, type 2, and gestational diabetes.", "Type-1, Type-2, Prediabetes, and Gestational diabetes", "Type-1, Type-2, Gestational diabetes and less common types of diabetes include monogenic diabetes and cystic fibrosis-related diabetes."]   
+    },
+    {
+     "tag": "diabetes_symptopms",
+     "patterns": ["symptoms of diabetes?", "how to recognize diabetes?"],
+     "responses": ["Diabetes symptoms are caused by rising blood sugar.", "The general symptoms of diabetes include: increased hunger, increased thirst, weight loss, frequent urination, blurry vision, extreme fatigue, sores that don’t heal", "Symptoms of type 1 diabetes can include: extreme hunger, increased thirst, unintentional weight loss, frequent urination, blurry vision, tiredness and Symptoms of type 2 diabetes can include: increased hunger, increased thirst, increased urination, blurry vision, tiredness, sores that are slow to heal", "Going to the toilet a lot, being really thirsty, feeling more tired than usual, losing weight without trying to, gnital itching or thrush, cuts and wounds take longer to heal, blurred eyesight, increased hunger.", "Some of the signs and symptoms of type 1 diabetes and type 2 diabetes are: increased thirst, frequent urination, extreme hunger, unexplained weight loss, presence of ketones in the urine, fatigue, irritability, blurred vision, slow-healing sores, frequent infections"]
+    },
+    {
+     "tag": "diabetes_causes",
+     "patterns": ["reason of diabetes?", "why diabetes developed?", "causes of diabetes?"],
+     "responses": ["The immune system mistakenly attacks and destroys insulin-producing beta cells in the pancreas.", "Genes may play a role in some people. It’s also possible that a virus sets off the immune system attack.", "Type 2 diabetes stems from a combination of genetics and lifestyle factors. Being overweight or obese increases your risk too. Carrying extra weight, especially in your belly, makes your cells more resistant to the effects of insulin on your blood sugar.", "This condition runs in families. Family members share genes that make them more likely to get type 2 diabetes and to be overweight.", "Type 1 is thought to be caused by a combination of genetic susceptibility and environmental factors, though exactly what those factors are is still unclear. Weight is not believed to be a factor in type 1 diabetes. It's believed that genetic and environmental factors play a role in the development of type 2 diabetes too. Being overweight is strongly linked to the development of type 2 diabetes, but not everyone with type 2 is overweight."]
+    },
+    {
+     "tag": "diabetes_problems",
+     "patterns": ["what health problems can people with diabetes develop?", "what are complications with diabetes?"],
+     "responses": ["Over time, high blood glucose leads to problems such as: heart disease, stroke, kidney disease, eye problems, dental disease, nerve damage, foot problems", "High blood sugar damages organs and tissues throughout your body. The higher your blood sugar is and the longer you live with it, the greater your risk for complications.", "Complications associated with diabetes include: heart disease, heart attack, stroke, neuropathy, nephropathy, retinopathy and vision loss, hearing loss, foot damage such as infections and sores that don’t heal, skin conditions such as bacterial and fungal infections, depression, dementia", "Long-term complications of diabetes develop gradually. The longer you have diabetes — and the less controlled your blood sugar — the higher the risk of complications. Eventually, diabetes complications may be disabling or even life-threatening. Possible complications include: cardiovascular disease, nerve damage, kidney damage, eye damage, foot damage, nerve damage, Alzheimer's disease"]
+    },
+    {
+     "tag": "diabetes_traement",
+     "patterns": ["treatment of diabetes?", "medications of diabetes?", "how to treat diabetes?"],
+     "responses": ["Insulin is the main treatment for type 1 diabetes. It replaces the hormone your body isn’t able to produce. Diet and exercise can help some people manage type 2 diabetes. If lifestyle changes aren’t enough to lower your blood sugar, you’ll need to take medication.","Healthy eating is a central part of managing diabetes. In some cases, changing your diet may be enough to control the disease.", "Type 1 diabetes isn’t preventable because it’s caused by a problem with the immune system. Some causes of type 2 diabetes, such as your genes or age, aren’t under your control either. Yet many other diabetes risk factors are controllable. Most diabetes prevention strategies involve making simple adjustments to your diet and fitness routine.", "A doctor may refer a person with diabetes or prediabetes to a nutritionist. A specialist can help a person with diabetes lead an active, balanced lifestyle and manage the condition.", "People can take supplementary insulin to manage the condition and improve glucose absorption. If a person has prediabetes, they can reduce the risk of full diabetes through regular exercise and a balanced, low-sugar diet.", "Type 1 diabetes can't be prevented. However, the same healthy lifestyle choices that help treat prediabetes, type 2 diabetes and gestational diabetes can also help prevent them: eat healthy foods, get more physical activity, lose excess pounds"]
+    }
+    
+]
+}
